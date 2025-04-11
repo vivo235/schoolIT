@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Lorem ipsum dolor sit.</h1>
-    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <link rel="stylesheet" href="./reset.css">
+  </head>
+  <body>
+    <h1 class="member-title">Front-End Developer</h1>
+    <div class="member-info">
+      <div class="info">
+        <img src="./Ellipse 2.png" alt="avatar" class="avatar" />
+        <h1 class="name">Devid Wills</h1>
+      </div>
+      <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
+        fugiat!
+      </p>
+    </div>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap');
-        h1{
-            font-family: "Underdog";
-            font-size: 25px;
-            border-bottom: 5px solid red;
-        }
-        p{
-            font-family: "Underdog";
-            font-size: 20px;
-            color: white;
-            background-color: black;
-            border-radius: 20px;
-            border-top: 5px solid yellow;
-            border-bottom: 5px solid blue;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Jua&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap");
+      body {
+        background-color: white;
+      }
+      .member-title {
+        font-family: Jua;
+        font-size: 60px;
+        max-width: 600px;
+        margin: auto;
+        color: black;
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom: 47px;
+      }
+      .member-info {
+        background-color: #792626;
+        border: 10px solid #000000;
+        border-radius: 45px;
+        max-width: 549px;
+        margin: auto;
+        padding-top: 21px;
+        padding-left: 53px;
+        padding-bottom: 60px;
+        padding-right: 87.54px;
+      }
+      .name {
+        font-family: Jua;
+        font-size: 32px;
+        color: white;
+        max-width: 343.13px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+      .description {
+        font-family: Jua;
+        font-size: 20px;
+        color: white;
+        max-width: 401.46px;
+        max-height: 50px;
+      }
+      .avatar {
+        display: block;
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
 
-
+      }
     </style>
-</body>
+  </body>
 </html>
