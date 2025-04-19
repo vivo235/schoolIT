@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+}
+
+.nav-link {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #000;
+}
+
+.baner {
+  background-color: rgba(45, 46, 57, 0.95);
+}
+
+.baner-title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 44px;
+  font-family: "Roboto";
+  font-weight: 700;
+  max-width: 690px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.baner-link {
+  display: block;
+  font-family: "Roboto";
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 20px 0;
+  background: #2196f3;
+  max-width: 200px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.baner-wrapper {
+  padding: 200px 0;
+}
+
+.benefits-wrapper {
+  display: flex;
+  column-gap: 30px;
+  padding: 100px 0;
+}
+
+.benefits-title {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #212121;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.benefits-description {
+  font-size: 14px;
+  font-family: "Roboto";
+  line-height: 24px;
+  font-weight: 400;
+  color: #757575;
+  }
+.members1{
+  display: flex;
+  gap: 30px ;
+}
+
+.members-title{
+  font-family: Roboto;
+  max-width: 264px;
+  font-size: 36px ;
+  margin: 0px 453px 0px 453px;
+  padding: 94px 0px 50px 0px;
+  font-weight: bold;
+}
+.members-box{
+  max-width: 270px;
+  background-color: white;
+  border: white solid 0.1px;
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: 94px;
+}
+
+.members-img{
+  max-width: 270px;
+}
+.members{
+  background-color: #DEDEDE;
+}
+
+.member-name{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500px;
+  margin: 30px 86px 10px 87px;
+}
+.member-name1{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight:500;
+  margin: 30px 85px 10px 86px;
+  max-width: 99px;
+}
+.member-name2{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight:500;
+  margin: 30px 65px 10px 65px;
+  max-width: 150px;
+}
+.member-name3{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight:500;
+  margin: 30px 63px 10px 63px;
+}
+.member-work{
+  font-family: Roboto;
+  font-size: 16px;
+  color: #8E6363;
+  margin: 0px 70px 30px 70px;
+}
+.member-work1{
+  font-family: Roboto;
+  font-size: 16px;
+  color: #8E6363;
+  margin: 0px 61px 30px 62px;
+}
+.member-work2{
+  font-family: Roboto;
+  font-size: 16px;
+  color: #8E6363;
+  margin: 0px 97px 30px 97px;
+}
+.member-work3{
+  font-family: Roboto;
+  font-size: 16px;
+  color: #8E6363;
+  margin: 0px 91px 30px 92px;
+}
+.footer{
+  background-color: #2F303A;
+}
+.logo-foot{
+  margin: 60px 0px 20px 0px;
+}
+.adress{
+  font-family: Roboto;
+  font-size: 14px;
+  margin-bottom: 9px;
+  color: white;
+}
+.mail{
+  font-family: Roboto;
+  margin-bottom: 9px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.number{
+  font-family: Roboto;
+  padding-bottom: 60px;
+  color: rgba(255, 255, 255, 0.6);
+}
